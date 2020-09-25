@@ -13,10 +13,4 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    
-
-    name: Build
-    runs-on: ubuntu-latest
-
-    steps:
     - uses: webbertakken/unity-builder@v1.2 
