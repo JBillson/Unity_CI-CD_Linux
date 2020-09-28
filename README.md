@@ -6,5 +6,8 @@ Project for testing the Unity CI/CD workflow with Github Actions.
 Unity Docker Images:
 https://hub.docker.com/r/gableroux/unity3d/tags
 
-Unity CI Docs:
+Open-Source Unity CI Docs:
 https://unity-ci.com/docs
+
+Video Tutorial:
+https://youtu.be/-txXtAfViEQ
