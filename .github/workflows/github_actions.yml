@@ -25,3 +25,7 @@ jobs:
 
         - name: Delete Decrypted License 
           run: rm .github/Unity_v2019.x.ulf
+
+        - name: Return license
+        uses: webbertakken/unity-return-license@v1
+        if: always()
