@@ -23,8 +23,5 @@ jobs:
             name: CISamplex86_64Binary 
             path: ./bin-x86_64
 
-        - name: Return Unity License
-          run: /opt/Unity/Editor/Unity -quit -batchmode -nographics -silent-crashes -logFile -returnlicense
-          
-        - name: Delete Decrypted License
+        - name: Delete Decrypted License 
           run: rm .github/Unity_v2019.x.ulf
